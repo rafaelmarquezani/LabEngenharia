@@ -1,0 +1,43 @@
+.bg
+{
+    width:620px;
+    height:465px;
+    position:relative;
+}
+
+.fg
+{
+    width:128px;
+    height:128px;
+    position:absolute;
+    top:154px;
+    left:69px;
+    border: 4px solid black;
+    border-radius:6px;
+    overflow:hidden;
+}
+
+.fg .conteudo
+{
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.fg .bg
+{
+    position:absolute;
+    top:-154px;
+    left:-69px;
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+    display:none;
+}
+
+.fg:hover .bg
+{
+    display:block;
+}
