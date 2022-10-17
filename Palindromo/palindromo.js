@@ -7,7 +7,7 @@ function ePalindromo() {
     let textInvertido = inverter(textoSemEspaco);
 
     if (textoSemEspaco == textInvertido)
-        alert(texto + "é um palíndromo!") 
+        alert(texto + " é um palíndromo!") 
     else
         alert(texto + " não é um palíndromo") 
 }
